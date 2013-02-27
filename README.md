@@ -10,4 +10,6 @@ Did you ever had a project with multiple build systems on Subilme Text? I know I
 { "keys": ["ctrl+shift+b"], "command": "build_selector" }
 ```
 
+![](http://img.iamntz.com/jing/2013-02-27_17h26_06.png)
+
 _This is tested only on Sublime Text 3. I'm not planning to offer support for ST2_
