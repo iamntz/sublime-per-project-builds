@@ -12,6 +12,8 @@ class BuildSelector(sublime_plugin.WindowCommand):
     self.window.show_quick_panel(panel_systems, self.start_building)
 
   def start_building( self, selected_index ):
+    if( selected_index == -1 ):
+      return
     selected_build = self.build_systems[selected_index]
     self.window.run_command("set_build_system", { "file": selected_build.get('name') })
     self.window.run_command("build")
